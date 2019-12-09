@@ -9,6 +9,8 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
+/3rd-packages/php/zips
+
 /node_modules
 /public/packages
 /public/bower
