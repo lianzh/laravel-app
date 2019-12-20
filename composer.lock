@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9be2d6ffde3fb165fd65df4bb4ad129",
+    "content-hash": "f5604e9f6d3d0bf3da9bf236b9f1f20e",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -1458,6 +1458,53 @@
                 "trusted proxy"
             ],
             "time": "2017-06-15T17:19:42+00:00"
+        },
+        {
+            "name": "hbclare/model-helper",
+            "version": "v1.2.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravelSTHelper/ModelHelper.git",
+                "reference": "1f4c7f79496c22904b31e3142ff54740ab54d80e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravelSTHelper/ModelHelper/zipball/1f4c7f79496c22904b31e3142ff54740ab54d80e",
+                "reference": "1f4c7f79496c22904b31e3142ff54740ab54d80e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "illuminate/database": "^5.1",
+                "illuminate/support": "^5.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hbclare\\ModelHelper\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ClareChang",
+                    "email": "hbclare@live.com"
+                }
+            ],
+            "description": "Eloquent Atom Cache Layer",
+            "time": "2018-12-19T07:59:27+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
